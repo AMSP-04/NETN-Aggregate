@@ -27,7 +27,7 @@ Version numbering of this FOM Module and associated documentation is based on th
 
 |Version|Description|
 |---|---|
-|v (tbd) ||
+|v1.0.4 ||
 
 [Changelog](changelog.md)
 
