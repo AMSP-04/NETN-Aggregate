@@ -3,6 +3,7 @@
 ### Changes in v1.x (RC 1)
 Version 1.x of the NETN-Aggregate was updated by MSG-163 and included in NETN-FOM v2.0 and AMSP-04 Ed A.
 
+#### NETN-Aggregate#1 Update modelIdentification
 * Change ´modelIdentification´ ´securityClassification´ from ´unclassified´ to ´Not Classified´
 * Change ´modelIdentification´ ´other´ to include license information
 * Clean-up ´modelIdentification´ ´useHistory´ to only include formally relesed versions. 
