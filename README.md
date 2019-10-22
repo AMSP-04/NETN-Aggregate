@@ -13,7 +13,7 @@ The NETN object classes for entities are specializations of the leaf classes of 
 Copyright (C) 2019 NATO/OTAN.
 This work is licensed under a [Creative Commons Attribution-NoDerivatives 4.0 International License](LICENCE.md). 
 
-The work includes the [NETN Aggregate FOM Module](NETN-Aggregate_v1.1.2.xml).
+The work includes the [NETN Aggregate FOM Module](NETN-Aggregate_v1.0.4.xml).
 
 Above license gives you the right to use and redistribute the NETN FOM Module (XML file) in its entirety without modification. You are also allowed to develop your own new FOM Modules (in separate XML files and separate documentation) that build-on/extends the NETN module by reference and including neccessary scaffolding classes. You are NOT allowed to modify this FOM Module without prior permission by the NATO Modelling and Simulation Group. 
 
@@ -34,7 +34,7 @@ Version numbering of this FOM Module and associated documentation is based on th
 
 |Version|Description|
 |---|---|
-|v1.1.2 | NETN Aggregate FOM Module included in NETN FOM v2.0 part of AMSP-04 Ed A|
+|v1.0.4 | NETN Aggregate FOM Module included in NETN FOM v2.0 part of AMSP-04 Ed A|
 
 [Changelog](changelog.md)
 
