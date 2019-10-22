@@ -10,7 +10,7 @@ NATO Education and Training Network Aggregate Unit FOM Module
 ## License
 
 Copyright (C) 2019 NATO/OTAN.
-This work is licensed under a [Creative Commons Attribution-NoDerivatives 4.0 International License](LICENSE.md). 
+This work is licensed under a [Creative Commons Attribution-NoDerivatives 4.0 International License](LICENCE.md). 
 
 The work includes the [NETN-Aggregate.xml](NETN-Aggregate.xml) FOM Module and [documentation](NETN-Aggregate.md).
 
