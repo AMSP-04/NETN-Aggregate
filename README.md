@@ -3,9 +3,9 @@ NATO Education and Training Network Aggregate Unit FOM Module
 
 ## Introduction
 
-### Purpose
+The NETN FAFD representation of aggregate entities such as military units and physical entities such as platforms is based on the [SISO-STD-001-2015 standard RPR-FOM v2.0](https://www.sisostds.org/). The NETN FOM Module extends the RPR-FOM with NETN-Aggregate and NETN-Physical object classes which include additional attributes for unique identification of simulated entities. The unique identification has been included to provide better support for initialization, NETN-TMR and other advanced design patterns requiring unique pre-defined identifiers for simulated entities. NETN federations still allow pure RPR-FOM based federates in the federation but with limited ability to interoperate in some NETN design aspects. 
 
-### Scope
+It is recommended that NETN federates support NETN extensions of Aggregate and Physical Entities. For compatibility reasons NETN federates, that implement NETN extensions of Aggregate and/or Physical Entities, are also required to support RPR-FOM v2.0.
 
 ## License
 
@@ -33,7 +33,8 @@ Version numbering of this FOM Module and associated documentation is based on th
 
 |Version|Description|
 |---|---|
-|v1.0.4 ||
+|[v1.0.4](https://github.com/AMSP-04/NETN-Aggregate/tree/v1.0.4) |NETN Aggregate FOM Module included in NETN FOM v2.0 as part of AMSP-04 Ed A |
+|TBD|NETN Aggregate FOM Module included in NETN FOM v3.0 as part of AMSP-04 Ed B |
 
 [Changelog](changelog.md)
 
