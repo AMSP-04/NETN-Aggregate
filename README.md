@@ -33,8 +33,8 @@ Version numbering of this FOM Module and associated documentation is based on th
 
 |Version|Description|
 |---|---|
-|[v1.0.4](https://github.com/AMSP-04/NETN-Aggregate/tree/v1.0.4) |NETN Aggregate FOM Module included in NETN FOM v2.0 as part of AMSP-04 Ed A |
-|TBD|NETN Aggregate FOM Module included in NETN FOM v3.0 as part of AMSP-04 Ed B |
+|[v1.0.4](https://github.com/AMSP-04/NETN-Aggregate/tree/v1.0.4) |Version 1.0.4 of the NETN-Aggregate updated by MSG-068 & MSG-106 and included in NETN-FOM v2.0 as part of AMSP-04 Ed A.|
+|v1.1|Version 1.1 of the NETN-Aggregate updated by MSG-163 and included in NETN-FOM v3.0 as part of AMSP-04 Ed B.|
 
 [Changelog](changelog.md)
 
