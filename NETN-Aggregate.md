@@ -7,9 +7,9 @@ This work is licensed under a [Creative Commons Attribution-NoDerivatives 4.0 In
 
 ## Introduction
 
-The NETN FAFD representation of aggregate entities such as military units and physical entities such as platforms is based on the [SISO-STD-001-2015 standard RPR-FOM v2.0](https://www.sisostds.org/). The NETN FOM Module extends the RPR-FOM with NETN-Aggregate and NETN-Physical object classes which include additional attributes for unique identification of simulated entities. 
+The NETN FAFD representation of aggregate entities such as military units is based on the [SISO-STD-001-2015 standard RPR-FOM v2.0](https://www.sisostds.org/). The NETN FOM Module extends the RPR-FOM with an NETN_Aggregate object class which include additional attributes for unique identification of simulated entities.
 
-It is recommended that NETN federates support NETN extensions of Aggregate and Physical Entities. For compatibility reasons NETN federates, that implement NETN extensions of Aggregate and/or Physical Entities, are also required to support RPR-FOM v2.0.
+It is recommended that NETN federates support the NETN extension for Aggregate Entities. For compatibility reasons NETN federates, that implement NETN extensions of Aggregate Entities, are also required to support RPR-FOM v2.0.
 
 ### Purpose
 
