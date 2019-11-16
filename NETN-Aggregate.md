@@ -19,27 +19,20 @@ A unique identification attribute has been included to provide better support fo
 
 ### Scope
 
-The `NETN_Aggregate` object class is a specialization/subclass of the RPR-FOM object class `BaseEntity.AggregateEntity` and defines additional attributes to allow representation of:
+The `NETN_Aggregate` object class is a specialization/subclass of the RPR-FOM object class `BaseEntity.AggregateEntity` and defines additional attributes.
 
-- Unique Instance Identification
-- Unit Callsign
-- Unit's simulation state (Active or Inactive) 
-- Amount of resources (personnel, supplies, and equipment)
-- Signature (visual, HUMINT, and electronic)
-- Current Mission and Activity
-- Mounted/on-board/embarked entities or other units
-- Unit Symbol
-- Unit Combat Value
-- Echelon Level
-- Weapon Control Order
-- Supporting units
-- Capture Status 
-- Geographical Footprint
-- Cover Status
-- Higher Headquarters and Source Unit if spawned from another unit
-- Sub units and/or entities
-                    
+<img src="./images/NETN-Aggregate Object Class Tree.png" />
 
 
+
+
+
+<img src="./images/NETN-Aggregate.png" width="75%"/>
+
+|Attribute|Description|
+|---|---|
+|UnitPersonnel|This summarizes the health status of personnel comprising the aggregate.|
+|Callsign||
+|VisualSignature||
 
 

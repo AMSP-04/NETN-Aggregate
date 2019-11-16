@@ -4,41 +4,50 @@
         <name>NETN-Aggregate</name>
         <type>FOM</type>
         <version>1.1.0</version>
-        <modificationDate>2019-07-18</modificationDate>
+        <modificationDate>2019-11-14</modificationDate>
         <securityClassification>Not Classified</securityClassification>
         <purpose></purpose>
         <applicationDomain>Training</applicationDomain>
-        <description>Object class from NETN FOM v1, module: AggDeagg</description>
+        <description>The NETN-Aggregate FOM Module provides a common standard interface for representation of Units in a federated distributed simulation. The module extends the existing RPR-FOM v2.0 standard with subclasses classes and additional attributes to allow additional information to be associated with simulated aggregate entities.</description>
         <useLimitation></useLimitation>
-        <useHistory>v1.0.4 - Release included in NETN-FOM v2.0 and AMSP-04 Ed A</useHistory>
+        <useHistory>v1.0.0 - Release included in NETN-FOM v1.0</useHistory>
+        <useHistory>v1.0.4 - Release included in NETN-FOM v2.0</useHistory>
+        <useHistory>v1.1.0 - Release included in NETN-FOM v3.0</useHistory>
         <poc>
-            <pocType>Release authority</pocType>
+            <pocType>Sponsor</pocType>
             <pocName>NATO Modelling and Simulation Group</pocName>
             <pocOrg>NATO Science and Technology Organization</pocOrg>
             <pocEmail>msg@cso.nato.int</pocEmail>
         </poc>
         <poc>
-            <pocType>Primary author</pocType>
+            <pocType>Contributor</pocType>
             <pocName>MSG-163 Evolution of NATO Standards for Federated Simulation</pocName>
             <pocOrg>NATO Modelling and Simulation Group</pocOrg>
             <pocEmail>msg@cso.nato.int</pocEmail>
         </poc>
         <poc>
-            <pocType>Primary author</pocType>
+            <pocType>Contributor</pocType>
             <pocName>MSG-134 NATO Distributed Simulation Architecture &amp; Design, Compliance Testing and Certification</pocName>
             <pocOrg>NATO Modelling and Simulation Group</pocOrg>
             <pocEmail>msg@cso.nato.int</pocEmail>
         </poc>
         <poc>
-            <pocType>Primary author</pocType>
+            <pocType>Contributor</pocType>
             <pocName>MSG-106 Enhanced CAX Architecture, Desing and Methodology</pocName>
             <pocOrg>NATO Modelling and Simulation Group</pocOrg>
             <pocEmail>msg@cso.nato.int</pocEmail>
         </poc>
         <poc>
             <pocType>Contributor</pocType>
-            <pocName>Lennart Olsson</pocName>
-            <pocOrg>Pitch Technologies, Sweden</pocOrg>
+            <pocName>MSG-068 NATO Education and Training Network</pocName>
+            <pocOrg>NATO Modelling and Simulation Group</pocOrg>
+            <pocEmail>msg@cso.nato.int</pocEmail>
+        </poc>
+        <poc>
+            <pocType>Release authority</pocType>
+            <pocName>Modelling and Simulation Standards Subgroup</pocName>
+            <pocOrg>NATO Modelling and Simulation Group</pocOrg>
+            <pocEmail>msg@cso.nato.int</pocEmail>
         </poc>
         <reference>
             <type>Dependency</type>
