@@ -7,14 +7,14 @@ The NETN FAFD representation of aggregate entities such as military units is bas
 
 It is recommended that NETN federates support the NETN extension for Aggregate Entities. For compatibility reasons NETN federates, that implement NETN extensions of Aggregate Entities, are also required to support RPR-FOM v2.0.
 
-## License
+## Licence
 
 Copyright (C) 2019 NATO/OTAN.
 This work is licensed under a [Creative Commons Attribution-NoDerivatives 4.0 International License](LICENCE.md). 
 
 The work includes the [NETN-Aggregate.xml](NETN-Aggregate.xml) FOM Module and [documentation](NETN-Aggregate.md).
 
-Above license gives you the right to use and redistribute the NETN FOM Module (XML file and Documentation) in its entirety without modification. You are also allowed to develop your own new FOM Modules (in separate XML files and separate documentation) that build-on/extends the NETN module by reference and including neccessary scaffolding classes. You are NOT allowed to modify this FOM Module or its documentation without prior permission by the NATO Modelling and Simulation Group. 
+Above licence gives you the right to use and redistribute the NETN FOM Module (XML file and Documentation) in its entirety without modification. You are also allowed to develop your own new FOM Modules (in separate XML files and separate documentation) that build-on/extends the NETN module by reference and including neccessary scaffolding classes. You are NOT allowed to modify this FOM Module or its documentation without prior permission by the NATO Modelling and Simulation Group. 
 
 ## Versions, updates and extentions
 
