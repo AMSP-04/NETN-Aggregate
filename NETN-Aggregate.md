@@ -59,9 +59,7 @@ The relation to NETN-ORG is normally not a one-to-one mapping, excepted for some
 |EmbeddedUnitList|The list of objects carried by this aggregate.|Unit.EmbarkedIn (indirect)|
 |AggregateMarking|RPR_v2 attribute|Unit.Name|
 |EntityType|RPR_v2 attribute|Unit.EntityType| 
-|Spatial|RPR_v2 attribute|Unit.Location| 
-|Spatial|RPR_v2 attribute|Unit.Direction| 
-|Spatial|RPR_v2 attribute|Unit.Speed| 
+|Spatial|RPR_v2 attribute|Unit.Location, Unit.Direction, Unit.Speed| 
 |IsPartOf|RPR_v2 attribute|Unit.SuperiorUnit|
 |Formation|RPR_v2 attribute|Unit.FormationPosition|
 |SubAggregatesIdentifiers|RPR_v2 attribute|Unit.SuperiorUnit (indirect)|
