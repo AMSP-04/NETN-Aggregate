@@ -29,6 +29,8 @@ The `NETN_Aggregate` object class is a specialization/subclass of the RPR-FOM ob
 
 <img src="./images/NETN-Aggregate.png" width="75%"/>
 
+The relation to NETN-ORG is normally not a one-to-one mapping, excepted for some cases. 
+
 |Attribute|Description|NETN-ORG Relations|
 |---|---|---|
 |UnitPersonnel|This summarizes the health status of personnel comprising the aggregate.|Unit.Holdings|
@@ -55,10 +57,15 @@ The `NETN_Aggregate` object class is a specialization/subclass of the RPR-FOM ob
 |Status|If an instance shall be taken into account by federates.|-|
 |UniqueID|The unique identifier of the object.|Unit.UUID|
 |EmbeddedUnitList|The list of objects carried by this aggregate.|Unit.EmbarkedIn (indirect)|
+|AggregateMarking|RPR_v2 attribute|Unit.Name|
 |EntityType|RPR_v2 attribute|Unit.EntityType| 
+|Spatial|RPR_v2 attribute|Unit.Location| 
+|Spatial|RPR_v2 attribute|Unit.Direction| 
+|Spatial|RPR_v2 attribute|Unit.Speed| 
 |IsPartOf|RPR_v2 attribute|Unit.SuperiorUnit|
-|EntityMarking|RPR_v2 attribute|Unit.Name|
 |Formation|RPR_v2 attribute|Unit.FormationPosition|
-|EntityIdentifiers|RPR_v2 attribute|Unit.Holdings (deaggregated)|
-
+|SubAggregatesIdentifiers|RPR_v2 attribute|Unit.SuperiorUnit (indirect)|
+|EntityIdentifiers|RPR_v2 attribute|Unit.EmbarkedIn (indirect)|
+|SilentAggregates|RPR_v2 attribute|Unit.Holdings (deaggregated)|
+|SilentEntities|RPR_v2 attribute|Unit.Holdings (deaggregated)|
 
