@@ -1,5 +1,7 @@
 ## Changelog NETN-Aggregate
 
+### Added ttributes for Route and Destination
+
 ### Changes in v1.1
 Version 1.1 of the NETN-Aggregate was updated by MSG-163 and included in NETN-FOM v3.0 as part of AMSP-04 Ed B.
 
