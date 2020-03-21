@@ -14,7 +14,7 @@
         <useHistory>v1.0.4 - Release included in NETN-FOM v2.0</useHistory>
         <useHistory>v1.1.0 - Release included in NETN-FOM v3.0</useHistory>
         <poc>
-            <pocType>Sponsor</pocType>
+            <pocType>Release authority</pocType>
             <pocName>NATO Modelling and Simulation Group</pocName>
             <pocOrg>NATO Science and Technology Organization</pocOrg>
             <pocEmail>msg@cso.nato.int</pocEmail>
@@ -43,19 +43,13 @@
             <pocOrg>NATO Modelling and Simulation Group</pocOrg>
             <pocEmail>msg@cso.nato.int</pocEmail>
         </poc>
-        <poc>
-            <pocType>Release authority</pocType>
-            <pocName>Modelling and Simulation Standards Subgroup</pocName>
-            <pocOrg>NATO Modelling and Simulation Group</pocOrg>
-            <pocEmail>msg@cso.nato.int</pocEmail>
-        </poc>
         <reference>
             <type>Dependency</type>
             <identification>NETN-BASE</identification>
         </reference>
         <reference>
             <type>Dependency</type>
-            <identification>RPR-Aggregate_v2.0</identification>
+            <identification>RPR-Aggregate</identification>
         </reference>
         <other>
 Copyright © 2020 by NATO/OTAN. All rights reserved.
@@ -752,7 +746,7 @@ Optional.</semantics>
             <fixedRecordData>
                 <name>VisualSignatureStruct</name>
                 <encoding>HLAfixedRecord</encoding>
-                <semantics></semantics>
+                <semantics>Susceptibility to electro-optical detection.</semantics>
                 <field>
                     <name>DVOSignaturePercent</name>
                     <dataType>PercentUnsignedInteger32</dataType>
@@ -837,7 +831,7 @@ Optional.</semantics>
             <fixedRecordData>
                 <name>CoverStatusStruct</name>
                 <encoding>HLAfixedRecord</encoding>
-                <semantics></semantics>
+                <semantics>Type and Level of Cover</semantics>
                 <field>
                     <name>CoverStatusPercent</name>
                     <dataType>PercentUnsignedInteger32</dataType>
