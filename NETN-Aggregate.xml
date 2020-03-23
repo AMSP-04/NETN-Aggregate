@@ -3,8 +3,8 @@
     <modelIdentification>
         <name>NETN-Aggregate</name>
         <type>FOM</type>
-        <version>1.1.0</version>
-        <modificationDate>2020-03-16</modificationDate>
+        <version>2.0.0 (Baseline MAR 2020)</version>
+        <modificationDate>2020-03-18</modificationDate>
         <securityClassification>Not Classified</securityClassification>
         <purpose></purpose>
         <applicationDomain>Training</applicationDomain>
@@ -14,7 +14,7 @@
         <useHistory>v1.0.4 - Release included in NETN-FOM v2.0</useHistory>
         <useHistory>v1.1.0 - Release included in NETN-FOM v3.0</useHistory>
         <poc>
-            <pocType>Release authority</pocType>
+            <pocType>Sponsor</pocType>
             <pocName>NATO Modelling and Simulation Group</pocName>
             <pocOrg>NATO Science and Technology Organization</pocOrg>
             <pocEmail>msg@cso.nato.int</pocEmail>
@@ -43,13 +43,19 @@
             <pocOrg>NATO Modelling and Simulation Group</pocOrg>
             <pocEmail>msg@cso.nato.int</pocEmail>
         </poc>
+        <poc>
+            <pocType>Release authority</pocType>
+            <pocName>Modelling and Simulation Standards Subgroup</pocName>
+            <pocOrg>NATO Modelling and Simulation Group</pocOrg>
+            <pocEmail>msg@cso.nato.int</pocEmail>
+        </poc>
         <reference>
             <type>Dependency</type>
             <identification>NETN-BASE</identification>
         </reference>
         <reference>
             <type>Dependency</type>
-            <identification>RPR-Aggregate</identification>
+            <identification>RPR-Aggregate_v2.0</identification>
         </reference>
         <other>
 Copyright © 2020 by NATO/OTAN. All rights reserved.
@@ -335,27 +341,27 @@ Above license gives you the right to use and redistribute the NETN FOM Module (X
                         </attribute>
                         <attribute>
                             <name>Route</name>
-                            <dataType>UuidArrayOfHLAbyte16</dataType>
+                            <dataType>PathVariantStruct</dataType>
                             <updateType>Conditional</updateType>
                             <updateCondition>When Changed</updateCondition>
                             <ownership>DivestAcquire</ownership>
                             <sharing>PublishSubscribe</sharing>
                             <transportation>HLAreliable</transportation>
                             <order>Receive</order>
-                            <semantics>A UUID that referes to a registered NETN_GeoObject.Path. 
+                            <semantics>A reference to a registered NETN_GeoObject.Path. 
  
 Optional.</semantics>
                         </attribute>
                         <attribute>
                             <name>Destination</name>
-                            <dataType>UuidArrayOfHLAbyte16</dataType>
+                            <dataType>PointVariantStruct</dataType>
                             <updateType>Conditional</updateType>
                             <updateCondition>When Changed</updateCondition>
                             <ownership>DivestAcquire</ownership>
                             <sharing>PublishSubscribe</sharing>
                             <transportation>HLAreliable</transportation>
                             <order>Receive</order>
-                            <semantics>A UUID that referes to a registered NETN_GeoObject.Point. 
+                            <semantics>A reference to a registered NETN_GeoObject.Point. 
  
 Optional.</semantics>
                         </attribute>
@@ -364,11 +370,6 @@ Optional.</semantics>
             </objectClass>
         </objectClass>
     </objects>
-    <interactions>
-        <interactionClass>
-            <name>HLAinteractionRoot</name>
-        </interactionClass>
-    </interactions>
     <dataTypes>
         <simpleDataTypes>
             <simpleData>
@@ -746,7 +747,7 @@ Optional.</semantics>
             <fixedRecordData>
                 <name>VisualSignatureStruct</name>
                 <encoding>HLAfixedRecord</encoding>
-                <semantics>Susceptibility to electro-optical detection.</semantics>
+                <semantics>Specifies the visual structure</semantics>
                 <field>
                     <name>DVOSignaturePercent</name>
                     <dataType>PercentUnsignedInteger32</dataType>
@@ -831,7 +832,7 @@ Optional.</semantics>
             <fixedRecordData>
                 <name>CoverStatusStruct</name>
                 <encoding>HLAfixedRecord</encoding>
-                <semantics>Type and Level of Cover</semantics>
+                <semantics>Specifies the status of the cover</semantics>
                 <field>
                     <name>CoverStatusPercent</name>
                     <dataType>PercentUnsignedInteger32</dataType>
