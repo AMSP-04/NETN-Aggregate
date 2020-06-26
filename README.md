@@ -30,6 +30,9 @@ Version numbering of this FOM Module and associated documentation is based on th
 * Update of the minor version number is made if the change constitute a minor additions to existing concepts and editorial changes that do not break backward compatibility but may require updates of software to use new concepts.
 * Patches are released to fix minor issues that do not break backward compatibility.
 
+## Note
+NETN-Aggregate will be merged with NETN-MRM in NETN-FOM v3.0 and will not be released as a separate module.
+
 |Version|Description|
 |---|---|
 |v1.0.4 | NETN Aggregate FOM Module included in NETN FOM v2.0 part of AMSP-04 Ed A|
