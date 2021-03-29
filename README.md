@@ -1,4 +1,4 @@
-# NETN-Aggregate
+# NETN-Aggregate (DEPRECATED)
 
 ## Introduction
 
@@ -31,7 +31,7 @@ Version numbering of this FOM Module and associated documentation is based on th
 * Patches are released to fix minor issues that do not break backward compatibility.
 
 ## Note
-NETN-Aggregate will be merged with NETN-MRM in NETN-FOM v3.0 and will not be released as a separate module.
+NETN-Aggregate is merged with NETN-MRM in NETN-FOM v3.0 and will not be released as a separate module.
 
 |Version|Description|
 |---|---|
